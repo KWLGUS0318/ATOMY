@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#root{
+  width: 100vw;
+  height: 100vh;
+  &>header{
+    width: inherit;
+    height: 120px;
+    border: 1px solid black;
+
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    &>div{
+      width: 33.3%;
+      height: inherit;
+      border: 1px solid black;
+    }
+  }
+}
